@@ -16,8 +16,9 @@ CLIPARY의 **설치 파일과 배포 안내를 위한 저장소**입니다. 앱 
 
 SelzyStudio의 개발 활동을 자발적으로 응원할 수 있습니다.
 
-- [GitHub Sponsors](https://github.com/sponsors/SelzyStudio)
 - [Ko-fi](https://ko-fi.com/selzystudio) — 해외 일회성 후원
+
+GitHub Sponsors는 공개 후원 페이지 준비가 끝난 뒤 추가합니다.
 
 후원 여부나 금액에 따라 CLIPARY의 기능·이용 기간·광고 표시가 달라지지 않습니다. 소스 공개나 특정 업데이트, 우선 지원을 후원의 대가로 약속하지 않습니다. 국내 카카오페이 후원은 아직 제공하지 않습니다.
 
