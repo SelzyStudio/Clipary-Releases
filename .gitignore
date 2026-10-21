@@ -1,0 +1,8 @@
+# Documentation-only repository. Upload installers and third-party source
+# release assets through GitHub Releases, not as application source commits.
+# Keep the committed file list explicit; never copy the private app checkout.
+*
+!.gitignore
+!README.md
+!.github/
+!.github/FUNDING.yml
