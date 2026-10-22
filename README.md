@@ -32,7 +32,7 @@ CLIPARY 자체 소스의 비공개 방침은 포함된 제3자 구성요소의 �
 
 버그·기능 제안은 [Issues](https://github.com/SelzyStudio/Clipary-Releases/issues)에 남길 수 있습니다. 공개 이슈에는 개인정보, 원본 업무 자료, 인증 정보나 민감한 캡처를 올리지 마세요.
 
-지원 문의: support@selzy.co.kr
+지원 문의: selzystudio@gmail.com
 
 ---
 
