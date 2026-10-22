@@ -4,5 +4,6 @@
 *
 !.gitignore
 !README.md
+!README.en.md
 !.github/
 !.github/FUNDING.yml

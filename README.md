@@ -1,5 +1,7 @@
 # CLIPARY
 
+**한국어** · [English](README.en.md)
+
 Windows용 무료 화면 캡처·편집 도구입니다. 이미지 연결, 화면 녹화, GIF·MP4 내보내기, 내장 OCR과 Markdown 노트를 제공합니다.
 
 CLIPARY의 **설치 파일과 배포 안내를 위한 저장소**입니다. 앱 자체 소스는 비공개이며 이 저장소에 포함하지 않습니다.
@@ -34,6 +36,3 @@ CLIPARY 자체 소스의 비공개 방침은 포함된 제3자 구성요소의 �
 
 지원 문의: selzystudio@gmail.com
 
----
-
-This repository is for CLIPARY installers and release information. The application source is private. No installer has been published yet. Downloads will appear in Releases after distribution checks are complete. Optional support does not unlock features or other paid benefits. Third-party components retain their own license and source-access rights.
