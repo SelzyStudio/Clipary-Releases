@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "providers": [
+    { "id": "githubSponsors", "enabled": false, "url": "" },
+    { "id": "koFi", "enabled": true, "url": "https://ko-fi.com/selzystudio" }
+  ]
+}

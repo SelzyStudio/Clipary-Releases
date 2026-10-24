@@ -1,0 +1,65 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>隐私政策 — CLIPARY</title><style>body{font:16px/1.75 system-ui,sans-serif;color:#e5e7eb;background:#10131a;margin:0}article{max-width:900px;margin:auto;padding:28px}h1{font-size:25px}h2{font-size:20px;margin-top:30px}h3{font-size:18px}a{color:#9ecbff}li{margin:8px 0}code{overflow-wrap:anywhere}blockquote{margin:20px 0;padding:12px 18px;border-left:3px solid #9ecbff;background:#1c2330}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:500px}td,th{border:1px solid #394150;padding:10px;text-align:left;vertical-align:top}nav{padding:16px 28px;border-bottom:1px solid #394150}nav a{margin-right:20px}p{overflow-wrap:anywhere}hr{border:0;border-top:1px solid #394150;margin:24px 0}</style></head><body><nav><a href="/Clipary-Releases/">CLIPARY</a><a href="/Clipary-Releases/support.html">支持说明</a><a href="/Clipary-Releases/legal/zh-CN/terms.html">条款</a><a href="/Clipary-Releases/legal/zh-CN/privacy.html">隐私</a><a href="/Clipary-Releases/legal/zh-CN/refund.html">支持与退款</a><a href="/Clipary-Releases/legal/privacy.html" lang="ko">韩文原文</a></nav><article><h1>CLIPARY 隐私政策</h1>
+<p>修订日期：<strong>2026-10-24</strong> · 适用范围：源码不公开的免费分发版本</p>
+<blockquote>本译文仅为方便用户而提供。如与韩文原文存在差异，在适用的强制性法律允许的范围内，以韩文原文为准。</blockquote>
+<h2>1. 适用范围与处理主体</h2>
+<p>本政策说明 CLIPARY 在电脑上访问、保存的信息，以及更新检查、可选外部 AI、咨询和赞助相关说明。运营者为 <strong>셀지스튜디오 (SelzyStudio)</strong>，个人信息相关咨询渠道为 <strong>+82-10-9262-4374</strong> 和 <strong>selzystudio@gmail.com</strong>。</p>
+<p>CLIPARY 本身的常规截图、录制、编辑、拼接、内置 OCR 和笔记功能均在电脑本地处理。<strong>用户确认运行外部 AI 后，所选图片和分析指令会发送给外部 AI 提供方。</strong> 更新检查，以及用户选择的安装、下载和访问外部页面，也会产生网络通信。</p>
+<h2>2. 在电脑上访问和处理的信息</h2>
+<div class="table-wrap"><table><thead><tr><th>类别</th><th>访问或保存的信息</th><th>目的与行为</th></tr></thead><tbody>
+<tr><td>屏幕截图、拼接与编辑</td><td>所选屏幕、区域、窗口、图片，截图时间，应用名称、窗口标题等来源信息</td><td>截图、拼接、标注、预览、保存及创建笔记</td></tr>
+<tr><td>浏览器整页截图</td><td>所选浏览器窗口的画面、文档区域及滚动信息</td><td>通过 Windows UI Automation 等方式滚动并截图。目标页面自身产生的通信适用该浏览器及网站的政策</td></tr>
+<tr><td>录制、音频与配音</td><td>所选屏幕或区域，以及根据设置采集的系统声音和麦克风语音</td><td>用户主动开始的录屏、录音及编辑。使用麦克风电平显示时也可能访问麦克风</td></tr>
+<tr><td>输入与辅助功能</td><td>已注册的全局快捷键、四指触控手势、最后选择的区域</td><td>启动截图或录制。触控检测和随 Windows 启动可在设置中控制</td></tr>
+<tr><td>文字识别</td><td>所选图片及识别结果</td><td>内置 Tesseract OCR 在电脑本地识别韩文和英文。选择 AI OCR 时适用第3节的传输流程</td></tr>
+<tr><td>笔记与笔记库</td><td>笔记正文、图片及附件、标签、链接、项目、文件名、路径、修改信息和保存的来源 URL</td><td>创建、搜索、关联本地 Markdown 笔记及管理笔记库</td></tr>
+<tr><td>项目与偏好设置</td><td>编辑状态、原始媒体路径、恢复信息、保存路径、快捷键、AI 提供方和 OCR 选择、是否首次运行</td><td>保留编辑项目、故障恢复及用户设置</td></tr>
+<tr><td>本地诊断</td><td>运行时间、功能进度和错误、文件路径、设备或工具信息、外部工具状态及错误输出等</td><td>排查电脑问题。CLI 输出或错误中可能包含账户标识或部分内容</td></tr>
+</tbody></table></div>
+<p>本免费分发版本无需购买或激活 CLIPARY 许可证，也不会为新的激活请求发送机器标识哈希。旧版本保存的许可证文件可能仍留在电脑上。过去实际运行过的服务器上是否留有记录，需要检查相应运营记录。</p>
+<h2>3. 外部 AI：传输项目、选择与控制</h2>
+<ol>
+<li><strong>接收方与目的</strong>：用户选择的 Anthropic Claude Code、OpenAI Codex CLI 或 Google Gemini CLI 及其提供方，处理图片文字识别或 AI 整理。处理方式是运行安装在用户电脑上的 CLI，而非经过 CLIPARY 运营者的 AI 代理服务器。</li>
+<li><strong>传输项目与时点</strong>：执行外部 AI 请求时，所选图片文件和应用生成的分析指令会传递给 CLI，并发送至提供方服务。图片可能包含屏幕上可见的个人信息、文档和对话。CLI 也可能为提供服务，依据其自身政策处理账户、认证、IP、设备及使用记录等信息。</li>
+<li><strong>用户确认</strong>：应用在每次 AI 请求时说明所选提供方以及图片和指令的传输，并取得确认。取消后不会发送该次请求。新用户默认使用内置 Tesseract OCR。即使保留既有用户保存的 AI OCR 设置，仍会执行外部传输确认流程。</li>
+<li><strong>安装、登录与连接检查</strong>：用户选择连接 AI 并确认安装后，应用可能从 Anthropic 官方安装程序或 npm 分发源安装外部 CLI，并打开提供方登录页面。登录及认证信息由外部 CLI 管理。Gemini 登录检查会发送不含屏幕图片的简短测试请求。预启动所选 Gemini CLI 或检查连接状态时，该 CLI 也可能连接服务。</li>
+<li><strong>保留与境外处理</strong>：AI 请求与响应、认证信息及 CLI 会话记录的保存位置、保留期限、是否用于模型改进，以及境外处理条件，会因提供方、账户类型和设置而不同。在 CLIPARY 中删除临时文件，并不意味着 CLI 或提供方的记录也被一并删除。请查阅提供方的现行政策和账户设置：<a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener noreferrer">Anthropic</a>、<a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer">OpenAI</a>、<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google</a>。</li>
+<li><strong>拒绝与撤回</strong>：取消传输确认，或在设置 → AI → 文字识别中选择 <strong>仅内置 OCR（Tesseract）</strong>，并不运行 AI 整理，即可避免向 AI 发送图片。退出登录、卸载 CLI 以及删除已发送的记录，还需使用相应 CLI 或提供方的流程。拒绝同意不会限制常规截图、编辑、录制及内置 OCR 的使用。</li>
+</ol>
+<p>使用外部 AI 前，请确认所选图片中是否包含他人的个人信息、健康或金融信息、密码或机密资料，并取得必要权限与同意。一般性的传输确认，并不代表已取得他人同意或满足法律要求的全部单独同意。</p>
+<h2>4. 其他外部通信及运营者接收的信息</h2>
+<div class="table-wrap"><table><thead><tr><th>情形</th><th>传输或访问的项目</th><th>目的与控制</th></tr></thead><tbody>
+<tr><td>检查更新信息</td><td>Store 版本由 Microsoft Store 管理更新，不访问应用自有的更新服务器。GitHub 直接分发版本从配置的公开 GitHub Releases 仓库请求更新元数据与安装文件。开发或旧配置可能使用 <code>shot.selzy.co.kr</code>。服务器或中转服务商可能处理连接 IP、请求时间、路径及标头</td><td>直接分发版本在启动时及运行期间约每24小时检查，安装由用户点击按钮启动。Store 版本不提供应用自有的更新检查或安装功能</td></tr>
+<tr><td>FFmpeg 恢复下载</td><td>向分发服务器发送文件请求及一般连接信息</td><td>缺少随附可执行文件时，用户选择安装或恢复后下载</td></tr>
+<tr><td>官方网站与外部链接</td><td>浏览器的一般连接信息、所访问页面及在该页面输入的信息</td><td>用户打开链接后，适用默认浏览器和目标网站的政策</td></tr>
+<tr><td>咨询与问题报告</td><td>用户发送的邮箱地址、咨询正文、附件及交易核实信息</td><td>回复咨询及处理问题和争议。本地日志仅在用户自行发送时才会传递给运营者</td></tr>
+<tr><td>赞助</td><td>用户在 Ko-fi、PayPal 直接输入的姓名、邮箱、留言和支付信息。运营者可能查看提供方共享的显示名、邮箱、留言、交易编号、金额、币种、时间及付款状态</td><td>自愿单次支持 SelzyStudio 多个免费软件项目的开发与维护，以及交易核实、咨询、退款和争议处理。应用不收集卡号或银行密码</td></tr>
+</tbody></table></div>
+<p>更新请求不包含截图图片、笔记正文或 OCR 结果。GitHub 静态元数据与当前应用版本在本地电脑比较。本免费版本不会自动向运营者上传本地诊断日志。直接分发版本没有仅关闭更新检查的专用设置，离线时仍可使用本地功能。Store 更新相关的信息处理遵循 Microsoft 政策。</p>
+<h3>自愿赞助：Ko-fi 与 PayPal</h3>
+<p>打开赞助页面时，不会在 URL 中附带截图、笔记、本地路径或应用设备标识。Ko-fi 和 PayPal 按各自政策处理用户直接提供的信息、连接、设备、Cookie 和交易信息。根据付款方式和设置，PayPal 可能向交易对方显示法定姓名、邮箱等信息，不保证匿名支付。请在付款前确认赞助留言的公开或私密范围。</p>
+<p><a href="https://more.ko-fi.com/privacy" target="_blank" rel="noopener noreferrer">Ko-fi 隐私政策</a> · <a href="https://www.paypal.com/kr/legalhub/paypal/privacy-full" target="_blank" rel="noopener noreferrer">PayPal 隐私声明</a></p>
+<h2>5. 保存位置、保留与删除</h2>
+<div class="table-wrap"><table><thead><tr><th>项目</th><th>电脑上的保存与保留方式</th><th>用户删除与管理方式</th></tr></thead><tbody>
+<tr><td>截图、录制、导出文件及项目</td><td>用户选择的保存文件夹或自动保存设置的文件夹。可能持续保留至用户自行删除</td><td>确认应用保存位置后，在文件资源管理器中删除。从编辑列表移除与删除原始文件是不同操作</td></tr>
+<tr><td>笔记与附件</td><td>默认位于用户的 <code>Documents\CLIPARY Notes</code>，或用户指定的笔记或笔记库文件夹。某些环境可能使用本地应用数据文件夹</td><td>删除笔记时可能移至笔记库的 <code>.clipary/trash</code>。需在回收站永久删除或清空，才能移除副本及附属记录。另存副本、备份和其他笔记的附件需另行检查</td></tr>
+<tr><td>笔记搜索与排序信息</td><td>笔记库的 <code>.clipary/index.sqlite</code>、排序设置等，包含笔记元数据、链接及文件信息</td><td>退出应用后可删除笔记库缓存，但再次打开时可能重新生成。完全删除笔记库时，还应检查隐藏文件夹</td></tr>
+<tr><td>设置与恢复</td><td>应用的 WebView 本地存储及 Windows 应用设置、数据文件夹，包含录制会话信息和编辑恢复副本</td><td>退出应用后管理对应应用数据。项目恢复列表按最近最多5项、7天的标准清理，但以应用运行且清理成功为前提，不保证立即删除</td></tr>
+<tr><td>AI 临时图片与响应文件</td><td>通常位于 <code>%LOCALAPPDATA%\CLIPARY\gemini-workspace</code>，虽然名称如此，但多个 AI CLI 都可能使用</td><td>请求结束后应用尝试删除。异常退出或删除失败时可能残留，可在退出应用和 CLI 后检查并删除。CLI 自身记录需另行处理</td></tr>
+<tr><td>本地诊断日志</td><td>通常位于 <code>%LOCALAPPDATA%\CLIPARY\clipary.log</code>。写入前若文件超过约200KB，会删除原文件后记录</td><td>退出应用后可删除该文件。再次运行时可能生成新日志。可通过打开日志功能检查内容，并在作为咨询附件发送前移除不必要的信息</td></tr>
+<tr><td>录制片段、预览、语音及转换临时文件</td><td>录制保存文件夹、应用数据或缓存文件夹，或 Windows 临时文件夹。可能为恢复和编辑而保留</td><td>退出应用后，先确认是否被相关项目引用再删除。删除原始文件或引用文件可能导致项目无法恢复</td></tr>
+</tbody></table></div>
+<p>不保证仅卸载应用就会删除用户保存的文件、笔记、外部 CLI 记录或全部应用数据。本地文件并非存储在专门提供的加密保管库中，请管理好 Windows 账户及文件夹访问权限。删除文件不保证其在存储设备上无法恢复。</p>
+<p>如果笔记或保存文件夹位于 OneDrive 等同步文件夹内，或使用剪贴板同步，信息还可能被复制到用户配置的其他服务。应另行检查该服务的设置、回收站和备份。</p>
+<h2>6. 行使权利与咨询</h2>
+<p>用户可通过 <strong>selzystudio@gmail.com</strong>，就运营者持有的本人信息，依据相关法律申请查阅、更正、删除、停止处理和撤回同意。运营者将在进行最少必要核实后依法处理，如有限制理由则予以说明。运营者无法远程寻找并删除仅存于用户电脑上的文件，用户可按第5节的方法管理，或请求协助。</p>
+<p>对于外部 AI、Microsoft Store、赞助平台等其他提供方持有的信息，还需使用该提供方的权利申请渠道。运营者不会在咨询过程中要求用户提供其未主动发送的本地原始文件，或外部账户的密码和令牌。</p>
+<h2>7. 政策变更</h2>
+<p>修订时，将通过应用或官方分发页面告知修订日期及重大变更内容。如出于新目的处理信息或向外部提供信息需要另行同意，将履行相应程序。</p>
+<p>修订记录：2026-04-29 初稿 → 2026-10-18 反映免费分发、自愿赞助、外部 AI 传输及本地保存行为的准备版本。 → 2026-10-24 确定咨询解决后90天内删除的规则.</p>
+<h2>韩国境内 KakaoPay 自愿赞助</h2>
+<p>这是以 SelzyStudio 运营者个人名义接收的自愿赞助。转账页面的收款人姓名为 <strong>신상미</strong>。请使用手机 KakaoPay 扫描应用或赞助页面中的无照片二维码，核对收款人及金额后自行转账。是否赞助不影响功能。Microsoft 不募集或主办此赞助。</p>
+<p>仅显示二维码不会使应用查询交易或跟踪转账完成情况。转账时 KakaoPay 按其政策处理信息。运营者可能看到交易记录提供的汇款人显示信息、金额、时间或留言。删除照片不代表匿名转账。</p>
+<h2>8. 免费分发网站、咨询与赞助记录的运营</h2>
+<p>隐私事务由 SelzyStudio 运营者负责，可联系 selzystudio@gmail.com 或 +82-10-9262-4374。介绍网站使用静态 GitHub Pages，不运营独立 CLIPARY 服务器、访问分析或运营者访问日志存储。GitHub 为托管、下载、更新及安全目的单独处理 IP 等连接信息；咨询删除期限并非对 GitHub 自身日志期限的保证。</p>
+<p>咨询通过 Google LLC 的 Gmail 接收和回复。发件地址及显示名、正文、自愿提供的附件和回复记录仅用于用户请求的支持或权利处理。发送、接收及回复时通过互联网邮件传输和保存，并在解决后90天内从邮件和垃圾箱删除，不用于营销名单。境外委托处理和存储用于履行用户请求的咨询服务。Google 可能在包括美国在内的全球设施处理信息；运营者无法指定个人 Gmail 的存储国家或 Google 自身安全、备份记录的期限。可查阅 <a href="https://policies.google.com/privacy/frameworks?hl=zh-CN" target="_blank" rel="noopener noreferrer">Google 境外处理说明</a>。您可以不发送邮件而使用上述电话咨询，或要求删除、限制已发送信息。拒绝邮件不影响普通本地功能。</p>
+<p>用户直接在自行选择的 Ko-fi、PayPal 或 KakaoPay 输入支付信息，应用不会代为收集转发。境外处理和提供方记录请查阅各支付页面及隐私政策。运营者仅将共享的最少显示名、邮箱、交易编号、日期、金额、币种和状态用于核实赞助、退款、争议及法定会计。咨询副本在解决后90天内删除，仅将适用税法保存义务的交易记录另行保管，按法定申报期限后一般5年、符合境外交易条件时7年等实际法定期间执行。删除不必要的识别信息，广告使用需另行同意。Google、GitHub 及支付提供方单独持有的记录适用其自身政策和权利程序。</p></article></body></html>
