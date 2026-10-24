@@ -2,40 +2,37 @@
 
 [한국어](README.md) · **English**
 
-CLIPARY is a free screen capture and editing tool for Windows. It offers image stitching, screen recording, GIF and MP4 export, built-in OCR, and Markdown notes.
+A free capture and editing tool for Windows 10/11 x64, with image stitching, screen recording, GIF/MP4 export, built-in OCR and Markdown notes.
 
-This repository contains **installers and release information for CLIPARY**. The application's source code is private and is not included here.
+This repository provides **installers, release information and third-party sources**. CLIPARY application source remains private.
 
 ## Downloads
 
-We are preparing the first public release. **No installer has been published yet.**
+[Official website](https://selzystudio.github.io/Clipary-Releases/) · [Direct GitHub download](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.0)
 
-Installers will be available in [Releases](https://github.com/SelzyStudio/Clipary-Releases/releases) after installation, signing, and third-party license checks are complete. A Microsoft Store link will be added once the app is publicly available. There is currently no downloadable release or confirmed Store approval to announce.
+Microsoft Store submission is being prepared; a link will be added after publication. The GitHub installer has no Authenticode certificate, so Windows may display publisher/SmartScreen warnings. Compare its SHA256 with the release's SHA256SUMS.txt. In-app updates verify a separate Tauri cryptographic signature.
 
-Downloading and using the app's core features does not require a donation, purchase, or license key. Optional external AI features require separate CLI installation and sign-in. The external providers' terms and charges may apply.
+No purchase, contribution or license key is required for ordinary features. Optional external AI requires a separate CLI/sign-in and is subject to provider terms and charges. Store builds use Store updates; GitHub builds use signed installer updates from GitHub Releases.
 
 ## Support development
 
-You can voluntarily support SelzyStudio's development work.
-
 - [Ko-fi](https://ko-fi.com/selzystudio) — one-time support from outside South Korea
+- [Support information](https://selzystudio.github.io/Clipary-Releases/support.html) — choose Ko-fi or KakaoPay
 
-A GitHub Sponsors link will be added when the public sponsorship page is ready.
+Existing support controls in About/Settings are available from the start. An additional button beside Settings appears after **three distinct days of active use**. GitHub Sponsors will be added when its public page is ready.
 
-The upcoming app offers a choice of Ko-fi and KakaoPay in About and Settings. Microsoft does not solicit or organize this support.
+Contributions do not change features, usage duration or advertising. They do not purchase source disclosure, specific updates or priority support. Microsoft does not solicit or organize this support.
 
-An additional support button beside Settings appears after three distinct days of active app use. The existing support controls in About and Settings are available from the start.
+## Third-party components and privacy
 
-Supporting CLIPARY does not change its features, usage period, or advertising behavior. Contributions do not come with a promise to publish the source code, deliver specific updates, or provide priority support.
+[Corresponding sources/build materials](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.0-sources) cover the controlled FFmpeg, Hugin and Tesseract builds and their libraries, with original sources, patches, configuration/build instructions and original notices. Required notices and MPL source archives are also installed with the app. Rights to obtain source, modify or redistribute covered components follow their own licenses independently of CLIPARY's private application source policy.
 
-## Source code and third-party components
+[Terms](https://selzystudio.github.io/Clipary-Releases/legal/en/terms.html) · [Privacy](https://selzystudio.github.io/Clipary-Releases/legal/en/privacy.html) · [Support/refunds](https://selzystudio.github.io/Clipary-Releases/legal/en/refund.html)
 
-Keeping CLIPARY's own source code private does not restrict any rights to obtain source code, modify, or redistribute its third-party components under their respective licenses.
-
-When binaries are distributed, we will provide the required notices and licenses, together with access to the applicable corresponding source and build materials. Review of those materials and preparation for public distribution are still in progress. No installer or corresponding-source bundle has been published in this repository yet. This repository and the CLIPARY application are not being released as an MIT-, GPL-, or other open-source project.
+Ordinary work is processed locally. Optional AI sends selected images/instructions to your chosen provider after confirmation. Inquiry emails/attachments are deleted within 90 days after resolution, except legally retained records.
 
 ## Contact
 
-Report bugs and suggest features in [Issues](https://github.com/SelzyStudio/Clipary-Releases/issues). Do not post personal information, original work documents, credentials, or sensitive screenshots in public issues.
+[Issues](https://github.com/SelzyStudio/Clipary-Releases/issues) · [selzystudio@gmail.com](mailto:selzystudio@gmail.com)
 
-Support: [selzystudio@gmail.com](mailto:selzystudio@gmail.com)
+Do not post personal information, original work documents, credentials or sensitive captures in public issues.

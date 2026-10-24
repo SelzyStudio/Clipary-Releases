@@ -2,41 +2,37 @@
 
 **한국어** · [English](README.en.md)
 
-Windows용 무료 화면 캡처·편집 도구입니다. 이미지 연결, 화면 녹화, GIF·MP4 내보내기, 내장 OCR과 Markdown 노트를 제공합니다.
+Windows 10/11 64비트용 무료 캡처·편집 도구입니다. 이미지 연결, 화면 녹화, GIF·MP4 내보내기, 내장 OCR과 Markdown 노트를 제공합니다.
 
-CLIPARY의 **설치 파일과 배포 안내를 위한 저장소**입니다. 앱 자체 소스는 비공개이며 이 저장소에 포함하지 않습니다.
+이 저장소에는 **설치 파일·배포 안내·제3자 대응 소스**만 제공합니다. CLIPARY 앱 자체 소스는 비공개입니다.
 
 ## 다운로드
 
-현재 첫 공개 배포를 준비하고 있으며 **설치 파일은 아직 게시하지 않았습니다.**
+[공식 안내 사이트](https://selzystudio.github.io/Clipary-Releases/) · [GitHub 직접 다운로드](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.0)
 
-설치·서명·제3자 라이선스 검증을 마친 파일은 [Releases](https://github.com/SelzyStudio/Clipary-Releases/releases)에 게시할 예정입니다. Microsoft Store 링크는 앱이 공개된 뒤 추가합니다. 현재 다운로드 가능한 버전이나 Store 승인 완료를 안내하는 페이지가 아닙니다.
+Microsoft Store는 제출 준비 중이며 공개 후 링크를 추가합니다. GitHub용 설치 파일은 별도 Authenticode 인증서로 서명하지 않아 Windows의 게시자/SmartScreen 경고가 나타날 수 있습니다. 설치 파일의 SHA256을 릴리스의 SHA256SUMS.txt와 비교할 수 있습니다. 앱 자동 업데이트는 별도의 Tauri 전자서명을 검증합니다.
 
-다운로드와 앱 기본 기능 사용에 후원·구매·라이선스 키를 요구하지 않습니다. 선택형 외부 AI 기능에는 별도 CLI 설치·로그인이 필요하며, 해당 외부 서비스의 이용 조건과 비용이 적용될 수 있습니다.
+다운로드와 일반 기능에 구매·후원·라이선스 키를 요구하지 않습니다. 외부 AI는 선택 사항이며 별도 CLI·로그인 및 제공자 조건·비용이 적용될 수 있습니다. Store 버전은 Store가 업데이트를 관리하고, GitHub 버전은 GitHub Releases의 서명된 설치 파일을 사용합니다.
 
 ## 개발 응원
 
-SelzyStudio의 개발 활동을 자발적으로 응원할 수 있습니다.
-
 - [Ko-fi](https://ko-fi.com/selzystudio) — 해외 일회성 후원
+- [후원 안내](https://selzystudio.github.io/Clipary-Releases/support.html) — Ko-fi·카카오페이 선택
 
-GitHub Sponsors는 공개 후원 페이지 준비가 끝난 뒤 추가합니다.
+앱 정보·설정 화면의 기존 후원 경로는 처음부터 사용할 수 있습니다. 설정 옆 추가 후원 버튼은 **실제 사용한 날이 누적 3일**이 된 뒤 표시됩니다. GitHub Sponsors는 공개 페이지 준비 완료 후 추가합니다.
 
-배포 예정 앱의 정보·설정 화면에서는 Ko-fi와 카카오페이 중 후원 수단을 선택할 수 있습니다. Microsoft는 이 후원을 모집하거나 주관하지 않습니다.
+후원 여부와 금액에 따라 기능·이용 기간·광고 표시가 달라지지 않습니다. 소스 공개, 특정 업데이트 또는 우선 지원을 대가로 약속하지 않습니다. Microsoft는 후원을 모집하거나 주관하지 않습니다.
 
-설정 옆의 추가 후원 버튼은 앱을 실제로 사용한 날이 누적 3일이 된 뒤 표시됩니다. 정보·설정 화면의 기존 후원 경로는 처음부터 사용할 수 있습니다.
+## 제3자 구성요소와 개인정보
 
-후원 여부나 금액에 따라 CLIPARY의 기능·이용 기간·광고 표시가 달라지지 않습니다. 소스 공개나 특정 업데이트, 우선 지원을 후원의 대가로 약속하지 않습니다.
+[대응 소스·빌드 자료](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.0-sources)에는 자체 빌드한 FFmpeg·Hugin·Tesseract와 관련 라이브러리의 원본 소스, 패치, 설정·빌드 지침, 원문 고지가 있습니다. 필요한 고지와 MPL 소스는 설치 파일에도 포함합니다. 각 구성요소의 소스 제공·수정·재배포 권리는 해당 라이선스를 따르며 CLIPARY 자체의 비공개 방침에 의해 제한되지 않습니다.
 
-## 소스 및 제3자 구성요소
+[이용약관](https://selzystudio.github.io/Clipary-Releases/legal/terms.html) · [개인정보처리방침](https://selzystudio.github.io/Clipary-Releases/legal/privacy.html) · [후원·환불 안내](https://selzystudio.github.io/Clipary-Releases/legal/refund.html)
 
-CLIPARY 자체 소스의 비공개 방침은 포함된 제3자 구성요소의 라이선스상 소스 제공·수정·재배포 권리를 제한하지 않습니다. 각 구성요소에는 해당 라이선스가 적용됩니다.
-
-실제 바이너리를 배포할 때 필요한 고지·라이선스·대응 소스와 빌드 자료의 제공 경로를 함께 안내할 예정입니다. 현재 대응 자료의 검토와 공개 배포 준비를 진행 중이며, 이 저장소에는 설치 파일이나 대응 소스 묶음을 아직 게시하지 않았습니다. 이 저장소 전체 또는 CLIPARY 자체가 MIT/GPL 등 오픈소스로 공개됐다는 의미는 아닙니다.
+일반 작업은 PC에서 처리하고, 외부 AI는 사용자의 확인 후 선택한 이미지·지시문을 제공자에게 전달합니다. 문의 이메일·첨부는 해결 후 90일 이내 삭제하며 법정 보관 기록은 예외입니다.
 
 ## 문의
 
-버그·기능 제안은 [Issues](https://github.com/SelzyStudio/Clipary-Releases/issues)에 남길 수 있습니다. 공개 이슈에는 개인정보, 원본 업무 자료, 인증 정보나 민감한 캡처를 올리지 마세요.
+[Issues](https://github.com/SelzyStudio/Clipary-Releases/issues) · [selzystudio@gmail.com](mailto:selzystudio@gmail.com)
 
-지원 문의: selzystudio@gmail.com
-
+공개 이슈에 개인정보, 원본 업무 자료, 인증 정보나 민감한 캡처를 올리지 마세요.
