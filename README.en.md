@@ -22,7 +22,11 @@ You can voluntarily support SelzyStudio's development work.
 
 A GitHub Sponsors link will be added when the public sponsorship page is ready.
 
-Supporting CLIPARY does not change its features, usage period, or advertising behavior. Contributions do not come with a promise to publish the source code, deliver specific updates, or provide priority support. Domestic support through KakaoPay is not currently available.
+The upcoming app offers a choice of Ko-fi and KakaoPay in About and Settings. Microsoft does not solicit or organize this support.
+
+An additional support button beside Settings appears after three distinct days of active app use. The existing support controls in About and Settings are available from the start.
+
+Supporting CLIPARY does not change its features, usage period, or advertising behavior. Contributions do not come with a promise to publish the source code, deliver specific updates, or provide priority support.
 
 ## Source code and third-party components
 
