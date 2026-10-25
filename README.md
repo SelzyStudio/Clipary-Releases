@@ -6,6 +6,8 @@
 
 **[Windows용 무료 다운로드](https://get.microsoft.com/installer/download/9NCFQVN0QZJC?referrer=appbadge&source=github.com)** · [소개·빠른 시작](https://selzystudio.github.io/Clipary-Releases/)
 
+[영문 사용법·짧은 영상 3편](https://selzystudio.github.io/Clipary-Releases/guides/) — 캡처 설명, MP4·GIF 편집, OCR·Markdown 노트
+
 ## 설치 후 첫 캡처 · 3단계
 
 1. CLIPARY를 설치하고 실행합니다.

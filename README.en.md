@@ -6,6 +6,8 @@ A free Windows 10/11 64-bit app for screenshots, image stitching, annotations, s
 
 **[Free download for Windows](https://get.microsoft.com/installer/download/9NCFQVN0QZJC?referrer=appbadge&source=github.com)** · [Website & quick start](https://selzystudio.github.io/Clipary-Releases/)
 
+[Three practical tutorials with short videos](https://selzystudio.github.io/Clipary-Releases/guides/) — screenshot annotations, MP4/GIF editing, and OCR-to-Markdown notes
+
 ## Quick start: your first capture
 
 1. Install and launch CLIPARY.
