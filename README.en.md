@@ -8,11 +8,21 @@ This repository provides **installers, release information and third-party sourc
 
 ## Downloads
 
-[Official website](https://selzystudio.github.io/Clipary-Releases/) · [Direct GitHub download](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.0)
+### Recommended download
 
-Microsoft Store submission is being prepared; a link will be added after publication. The GitHub installer has no Authenticode certificate, so Windows may display publisher/SmartScreen warnings. Compare its SHA256 with the release's SHA256SUMS.txt. In-app updates verify a separate Tauri cryptographic signature.
+**[Free download for Windows — official Microsoft web installer](https://get.microsoft.com/installer/download/9NCFQVN0QZJC?referrer=appbadge&source=github.com)**
 
-No purchase, contribution or license key is required for ordinary features. Optional external AI requires a separate CLI/sign-in and is subject to provider terms and charges. Store builds use Store updates; GitHub builds use signed installer updates from GitHub Releases.
+Download the Microsoft-signed web installer directly from Microsoft's servers. An internet connection is required to download and install the Store edition of CLIPARY. Microsoft Store manages subsequent updates.
+
+[Microsoft Store listing](https://apps.microsoft.com/detail/9NCFQVN0QZJC?hl=en-US) · [Official website](https://selzystudio.github.io/Clipary-Releases/)
+
+### Alternative download
+
+[Direct GitHub installer — CLIPARY 1.0.0](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.0)
+
+The direct GitHub installer has no Authenticode certificate, so Windows may display publisher/SmartScreen warnings. Compare its SHA256 with the release's SHA256SUMS.txt. In-app updates for the GitHub edition verify a separate Tauri cryptographic signature.
+
+No purchase, contribution or license key is required for ordinary features. Optional external AI requires a separate CLI/sign-in and is subject to provider terms and charges.
 
 ## Support development
 

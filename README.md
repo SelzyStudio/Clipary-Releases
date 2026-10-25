@@ -8,11 +8,21 @@ Windows 10/11 64비트용 무료 캡처·편집 도구입니다. 이미지 연�
 
 ## 다운로드
 
-[공식 안내 사이트](https://selzystudio.github.io/Clipary-Releases/) · [GitHub 직접 다운로드](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.0)
+### 기본 다운로드
 
-Microsoft Store는 제출 준비 중이며 공개 후 링크를 추가합니다. GitHub용 설치 파일은 별도 Authenticode 인증서로 서명하지 않아 Windows의 게시자/SmartScreen 경고가 나타날 수 있습니다. 설치 파일의 SHA256을 릴리스의 SHA256SUMS.txt와 비교할 수 있습니다. 앱 자동 업데이트는 별도의 Tauri 전자서명을 검증합니다.
+**[Windows용 무료 다운로드 — Microsoft 공식 웹 설치기](https://get.microsoft.com/installer/download/9NCFQVN0QZJC?referrer=appbadge&source=github.com)**
 
-다운로드와 일반 기능에 구매·후원·라이선스 키를 요구하지 않습니다. 외부 AI는 선택 사항이며 별도 CLI·로그인 및 제공자 조건·비용이 적용될 수 있습니다. Store 버전은 Store가 업데이트를 관리하고, GitHub 버전은 GitHub Releases의 서명된 설치 파일을 사용합니다.
+Microsoft가 서명한 웹 설치 프로그램을 Microsoft 서버에서 받습니다. 실행하면 인터넷을 통해 Store 버전의 CLIPARY를 내려받아 설치하며, 이후 업데이트는 Microsoft Store가 관리합니다.
+
+[Microsoft Store 소개 페이지](https://apps.microsoft.com/detail/9NCFQVN0QZJC?hl=ko-KR&gl=KR) · [공식 안내 사이트](https://selzystudio.github.io/Clipary-Releases/)
+
+### 보조 다운로드
+
+[GitHub 직접 설치 파일 — CLIPARY 1.0.0](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.0)
+
+GitHub용 직접 설치 파일은 별도 Authenticode 인증서로 서명하지 않아 Windows의 게시자/SmartScreen 경고가 나타날 수 있습니다. 설치 파일의 SHA256을 릴리스의 SHA256SUMS.txt와 비교할 수 있습니다. GitHub 버전의 앱 자동 업데이트는 별도의 Tauri 전자서명을 검증합니다.
+
+다운로드와 일반 기능에 구매·후원·라이선스 키를 요구하지 않습니다. 외부 AI는 선택 사항이며 별도 CLI·로그인 및 제공자 조건·비용이 적용될 수 있습니다.
 
 ## 개발 응원
 
