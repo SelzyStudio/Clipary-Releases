@@ -121,7 +121,7 @@ Download the Microsoft-signed web installer directly from Microsoft's servers. A
 
 ### Alternative download
 
-[Direct GitHub installer — CLIPARY 1.0.1](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.1)
+[Direct GitHub installer — CLIPARY 1.0.2](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.2)
 
 The direct GitHub installer has no Authenticode certificate, so Windows may display publisher/SmartScreen warnings. Compare its SHA256 with the release's SHA256SUMS.txt. In-app updates for the GitHub edition verify a separate Tauri cryptographic signature.
 
