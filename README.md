@@ -121,7 +121,7 @@ Microsoft가 서명한 웹 설치 프로그램을 Microsoft 서버에서 받습�
 
 ### 보조 다운로드
 
-[GitHub 직접 설치 파일 — CLIPARY 1.0.1](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.1)
+[GitHub 직접 설치 파일 — CLIPARY 1.0.2](https://github.com/SelzyStudio/Clipary-Releases/releases/tag/v1.0.2)
 
 GitHub용 직접 설치 파일은 별도 Authenticode 인증서로 서명하지 않아 Windows의 게시자/SmartScreen 경고가 나타날 수 있습니다. 설치 파일의 SHA256을 릴리스의 SHA256SUMS.txt와 비교할 수 있습니다. GitHub 버전의 앱 자동 업데이트는 별도의 Tauri 전자서명을 검증합니다.
 
